@@ -20,7 +20,8 @@ import { AboutComponent } from './about/about.component';
     RouterModule.forRoot([
       {
         path: '',
-        component: HomeComponent
+        redirectTo: '/home',
+        pathMatch: 'full'
       },
       {
         path: 'home',
