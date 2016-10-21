@@ -34,6 +34,10 @@ import { ContactComponent } from './contact/contact.component';
         component: AboutComponent
       },
       {
+        path: 'contact',
+        component: ContactComponent
+      },
+      {
         path: '**',
         component: PageNotFoundComponent
       }
