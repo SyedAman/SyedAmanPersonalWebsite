@@ -31,6 +31,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
       {
         path: 'about',
         component: AboutComponent
+      },
+      {
+        path: '**',
+        component: PageNotFoundComponent
       }
     ])
   ],
