@@ -6,10 +6,11 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent, HomeComponent
+    AppComponent, HomeComponent, NavBarComponent
   ],
   imports: [
     BrowserModule,
@@ -17,10 +18,14 @@ import { HomeComponent } from './home/home.component';
     HttpModule,
     RouterModule.forRoot([
       {
-        path: "home",
+        path: '',
+        component: HomeComponent
+      },
+      {
+        path: 'home',
         component: HomeComponent
       }
-      ])
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
