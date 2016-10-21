@@ -25,6 +25,10 @@ import { AboutComponent } from './about/about.component';
       {
         path: 'home',
         component: HomeComponent
+      },
+      {
+        path: 'about',
+        component: AboutComponent
       }
     ])
   ],
