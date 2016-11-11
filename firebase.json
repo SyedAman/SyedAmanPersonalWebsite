@@ -6,9 +6,13 @@
     "public": "dist",
     "rewrites": [
       {
-        "source": "**",
-        "destination": "./src/index.html"
+      "source": "**",
+      "destination": "/index.html"
       }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/node_modules/**"
     ]
   }
 }
