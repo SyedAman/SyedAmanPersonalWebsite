@@ -32,5 +32,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
-#Firebase
+#Logs
 *.log
+firebase-debug.log
