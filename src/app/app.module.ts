@@ -10,10 +10,11 @@ import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
 
 @NgModule({
   declarations: [
-    AppComponent, HomeComponent, AboutComponent, PageNotFoundComponent, ContactComponent, FooterComponent
+    AppComponent, HomeComponent, AboutComponent, PageNotFoundComponent, ContactComponent, FooterComponent, WorkExperienceComponent
   ],
   imports: [
     BrowserModule,
