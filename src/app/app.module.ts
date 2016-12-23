@@ -12,6 +12,9 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 
+// Angular Material dependency
+import 'hammerjs';
+
 @NgModule({
   declarations: [
     AppComponent, HomeComponent, AboutComponent, PageNotFoundComponent, ContactComponent, FooterComponent, WorkExperienceComponent
