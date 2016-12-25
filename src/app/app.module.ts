@@ -15,10 +15,11 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 
 // Angular Material dependency
 import 'hammerjs';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent, HomeComponent, AboutComponent, PageNotFoundComponent, ContactComponent, FooterComponent, WorkExperienceComponent
+    AppComponent, HomeComponent, AboutComponent, PageNotFoundComponent, ContactComponent, FooterComponent, WorkExperienceComponent, NavBarComponent
   ],
   imports: [
     BrowserModule,

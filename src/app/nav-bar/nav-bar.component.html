@@ -1,0 +1,15 @@
+<md-toolbar>
+    Syed Nashik Aman |
+    <button md-button>About Me</button>
+    <button md-button>My Skills</button>
+    <button md-button>Contact</button>
+
+    <md-menu #appMenu="mdMenu">
+        <button md-menu-item> Settings </button>
+        <button md-menu-item> Help </button>
+    </md-menu>
+
+    <button md-icon-button [mdMenuTriggerFor]="appMenu">
+        <md-icon>more_vert</md-icon>
+    </button>
+</md-toolbar>
