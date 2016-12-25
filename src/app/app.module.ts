@@ -44,10 +44,10 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
       //   path: 'contact',
       //   component: ContactComponent
       // },
-      {
-        path: '**',
-        component: PageNotFoundComponent
-      }
+      // {
+      //   path: '**',
+      //   component: PageNotFoundComponent
+      // }
     ]),
     MaterialModule.forRoot()
   ],
