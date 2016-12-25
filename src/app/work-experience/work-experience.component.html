@@ -12,7 +12,7 @@
   <md-list-item style="color:black;" *ngFor="let skill of frontendSkills">
     <md-icon md-list-avatar>folder</md-icon>
     <h4 md-line>{{skill.name}}</h4>
-    <p md-line> {{skill.updated | date}} </p>
+    <p md-line> {{skill.experience}} </p>
   </md-list-item>
 
   <md-divider></md-divider>
@@ -23,7 +23,7 @@
   <md-list-item style="color:black;" *ngFor="let skill of backendSkills">
     <md-icon md-list-avatar>note</md-icon>
     <h4 md-line>{{skill.name}}</h4>
-    <p md-line> {{skill.updated | date}} </p>
+    <p md-line> {{skill.experience}} </p>
   </md-list-item>
 
 </md-list>
