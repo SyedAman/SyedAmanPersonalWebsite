@@ -1,3 +1,29 @@
-<p>
-  work-experience works!
-</p>
+<br>
+<!-- Seperator -->
+<md-toolbar>My Skills</md-toolbar>
+<br>
+
+<!-- List of Skills -->
+<md-list id="mySkills">
+
+  <!-- Frontend Skills -->
+  <h3 md-subheader>Frontend Skills</h3>
+
+  <md-list-item *ngFor="let skill of frontendSkills">
+    <md-icon md-list-avatar>skill</md-icon>
+    <h4 md-line>{{skill.name}}</h4>
+    <p md-line> {{skill.updated | date}} </p>
+  </md-list-item>
+
+  <md-divider></md-divider>
+
+  <!-- Backend Skills-->
+  <h3 md-subheader>Backend Skills</h3>
+
+  <md-list-item *ngFor="let skill of backendSkills">
+    <md-icon md-list-avatar>skill</md-icon>
+    <h4 md-line>{{skill.name}}</h4>
+    <p md-line> {{skill.updated | date}} </p>
+  </md-list-item>
+
+</md-list>
