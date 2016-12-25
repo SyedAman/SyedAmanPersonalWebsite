@@ -19,30 +19,31 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent, HomeComponent, AboutComponent, PageNotFoundComponent, ContactComponent, FooterComponent, WorkExperienceComponent, NavBarComponent
+    AppComponent, HomeComponent, AboutComponent, PageNotFoundComponent, ContactComponent, FooterComponent,
+    WorkExperienceComponent, NavBarComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot([
-      {
-        path: '',
-        redirectTo: '/home',
-        pathMatch: 'full'
-      },
-      {
-        path: 'home',
-        component: HomeComponent
-      },
-      {
-        path: 'about',
-        component: AboutComponent
-      },
-      {
-        path: 'contact',
-        component: ContactComponent
-      },
+      // {
+      //   path: '',
+      //   redirectTo: '/home',
+      //   pathMatch: 'full'
+      // },
+      // {
+      //   path: 'home',
+      //   component: HomeComponent
+      // },
+      // {
+      //   path: 'about',
+      //   component: AboutComponent
+      // },
+      // {
+      //   path: 'contact',
+      //   component: ContactComponent
+      // },
       {
         path: '**',
         component: PageNotFoundComponent
