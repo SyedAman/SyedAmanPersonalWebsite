@@ -10,28 +10,32 @@ export class WorkExperienceComponent implements OnInit {
   // Frontend Skills
   frontendSkills = [
     {
-      name: 'Photos',
-      updated: new Date('1/1/16'),
+      name: 'AngularJS 1 | AngularJS 2',
+      experience: '2 years',
     },
     {
-      name: 'Recipes',
-      updated: new Date('1/17/16'),
+      name: 'ReactJS',
+      experience: '2 years',
     },
     {
-      name: 'Work',
-      updated: new Date('1/28/16'),
+      name: 'Ionic | Cordova',
+      experience: '2 years',
     }
   ];
 
   // Backend Skills
   backendSkills = [
     {
-      name: 'Vacation Itinerary',
-      updated: new Date('2/20/16'),
+      name: 'MongoDB',
+      experience: '2 years',
     },
     {
-      name: 'Kitchen Remodel',
-      updated: new Date('1/18/16'),
+      name: 'NodeJS',
+      experience: '2 years',
+    },
+    {
+      name: 'ExpressJS',
+      experience: '2 years',
     }
   ];
 
