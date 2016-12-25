@@ -4,13 +4,13 @@
 <br>
 
 <!-- List of Skills -->
-<md-list id="mySkills">
+<md-list>
 
   <!-- Frontend Skills -->
-  <h3 md-subheader>Frontend Skills</h3>
+  <h3 md-subheader style="color: black;">Frontend Skills</h3>
 
-  <md-list-item *ngFor="let skill of frontendSkills">
-    <md-icon md-list-avatar>skill</md-icon>
+  <md-list-item style="color:black;" *ngFor="let skill of frontendSkills">
+    <md-icon md-list-avatar>folder</md-icon>
     <h4 md-line>{{skill.name}}</h4>
     <p md-line> {{skill.updated | date}} </p>
   </md-list-item>
@@ -18,10 +18,10 @@
   <md-divider></md-divider>
 
   <!-- Backend Skills-->
-  <h3 md-subheader>Backend Skills</h3>
+  <h3 md-subheader style="color: black;">Backend Skills</h3>
 
-  <md-list-item *ngFor="let skill of backendSkills">
-    <md-icon md-list-avatar>skill</md-icon>
+  <md-list-item style="color:black;" *ngFor="let skill of backendSkills">
+    <md-icon md-list-avatar>note</md-icon>
     <h4 md-line>{{skill.name}}</h4>
     <p md-line> {{skill.updated | date}} </p>
   </md-list-item>
