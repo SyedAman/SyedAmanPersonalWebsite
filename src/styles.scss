@@ -2,3 +2,8 @@
 
 // import  pre-built theme from Angular Material
 @import '~@angular/material/core/theming/prebuilt/pink-bluegrey.scss';
+
+.container {
+  margin: auto;
+  width: 80%;
+}
