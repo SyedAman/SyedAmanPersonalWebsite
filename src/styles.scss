@@ -3,7 +3,11 @@
 // import  pre-built theme from Angular Material
 @import '~@angular/material/core/theming/prebuilt/pink-bluegrey.scss';
 
-.container {
+.center {
   margin: auto;
   width: 80%;
+}
+
+.center-text {
+  text-align: center;
 }
