@@ -27,10 +27,10 @@ export function App(props) {
   return (
     <AppWrapper>
       <Helmet
-        titleTemplate="%s - React.js Boilerplate"
-        defaultTitle="React.js Boilerplate"
+        titleTemplate="%s - SyedAman"
+        defaultTitle="SyedAman"
         meta={[
-          { name: 'description', content: 'A React.js Boilerplate application' },
+          { name: 'description', content: 'Syed Aman\'s personal website' },
         ]}
       />
       <Header />
