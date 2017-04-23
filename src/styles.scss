@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+// import  pre-built theme from Angular Material
+@import '~@angular/material/core/theming/prebuilt/pink-bluegrey.scss';
+
+.center {
+  margin: auto;
+  width: 80%;
+}
+
+.center-text {
+  text-align: center;
+}
