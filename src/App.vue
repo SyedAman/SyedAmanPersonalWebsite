@@ -1,5 +1,19 @@
 <template>
   <div id="app">
+    <div class="navbar">
+      <md-toolbar class="md-dense">
+        <md-button class="md-icon-button">
+          <md-icon>menu</md-icon>
+        </md-button>
+        <h2 class="md-title">Syed Aman</h2>
+
+        <!-- Display profile picture -->
+        <md-avatar class="md-small">
+          <img src="https://placeimg.com/64/64/people/8" alt="People">
+        </md-avatar>
+      </md-toolbar>
+    </div>
+
     <router-view></router-view>
   </div>
 </template>
@@ -16,11 +30,8 @@
 <!-- define global styles -->
 <style>
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
   }
 </style>
