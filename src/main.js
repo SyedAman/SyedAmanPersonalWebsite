@@ -10,9 +10,6 @@ import VueMaterial from 'vue-material'
 import App from './App'
 import router from './router'
 
-// import Vue Material styles
-import 'vue-material/dist/vue-material.css'
-
 // inject Vue Material
 Vue.use(VueMaterial)
 
