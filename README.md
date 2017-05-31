@@ -1,4 +1,4 @@
-# syed-aman-personal-website
+# Syed Aman's Personal Website
 
 > Syed Aman's personal website
 
